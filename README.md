@@ -1,19 +1,19 @@
 # guilherme-lucasVargas
 Projeto do semestre
-Tema:
+Tema: MackPedia
 
-Público-alvo:
+Público-alvo: Alunos Mackenzie
 
-Objetivos do site:
+Objetivos do site: Um acervo de conteúdos (imagens, links, tabelas etc), e assuntos abordados em aulas.
 
-Funcionalidades do site:
+Funcionalidades do site: Manter páginas de conteúdo acessíveis e editáveis a todos os usuários.
 
-Usuário Administrador:
+Usuário Administrador: Moderar e administrar usuários.
 
-Usuário Logado:
+Usuário Logado: Pode editar, ou seja, contribuir com o site.
 
-Usuário Visitante:
+Usuário Visitante: Visualiza o conteúdo.
 
-Mapa de Navegação:
+Mapa de Navegação: 
 
-Wireframe:
+Wireframe: 
