@@ -14,6 +14,6 @@ Usuário Logado: Pode editar, ou seja, contribuir com o site.
 
 Usuário Visitante: Visualiza o conteúdo.
 
-Mapa de Navegação: (http://prnt.sc/cihup0)
+Mapa de Navegação: ![SiteMap](http://image.prntscr.com/image/cebd175a9796472a9faea8a45d372a67.png)
 
 Wireframe: 
