@@ -1,0 +1,3 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteBase /
+RewriteRule    ^artigo/([A-Za-z0-9-]+)/?$ artigo.php?uri=$1  [NC,L]

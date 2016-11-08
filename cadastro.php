@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <?php include("include/head.php"); ?>
-    <body>
-        <img src=""></img> <!-- Logo -->
-        
-        <h1>Cadastre-se</h1>
-        <form>
-            <label for="nome">Nome Completo:</label>
-            <input type="text" name="nome"/><br>
-            <label for="cpf">CPF:</label>
-            <input type="text" name="cpf"/><br>
-            <label for="email">Email:</label>
-            <input type="email" name="email"/><br>
-            <label for="conf_email">Confirmar E-mail:</label>
-            <input type="email" name="conf_email"/><br>
-            <label for="sexo">Sexo:</label>
-            <select name="sexo">
-                <option value="M">Masculino</option>
-                <option value="F">Feminino</option>
-            </select><br>
-            <label for="data_nasc">Data Nascimento:</label>
-            <input type="date" name="data_nasc" value="1950-01-01" /><br>
-            <input type="submit" value="Submit"/>
-        </form>
-    </body>
+<?php 
+    include("include/head.php");?>
+<?php
+  include("include/header.php");
+  include("include/categorias.php");
+?>
+  <div class="container">
+    <div class="row">
+      <form class="col s12" method="POST" action="cadastrarUsuarios.php">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="firstName" name="firstName" type="text" class="validate" placeholder="Nome" required>
+          </div>
+          <div class="input-field col s6">
+            <input id="lastName" type="text" name="lastName" class="validate" placeholder="Sobrenome" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" name="password" class="validate" placeholder="Senha" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="confirmarPassword" type="password" name="confirmarPassword" class="validate" placeholder="Confirmar Senha" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" name="email" class="validate" placeholder="E-mail" required>
+          </div>
+        </div>
+        <input class="btn waves-effect waves-light" type="submit" name="action">
+      </form>
+    </div>
+  </div>
+</body>
 </html>
