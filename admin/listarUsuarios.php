@@ -2,7 +2,8 @@
 <html lang="pt-br">
 <?php include("../admin/include/head.php");?>
 <body>
-    <?php
+    <?php 
+    $active = "usuarios";
     include("../admin/include/header.php"); 
     ?>
 </body>

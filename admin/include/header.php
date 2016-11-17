@@ -6,7 +6,8 @@
 				<a href="teste.php" class="brand-logo"><img src="/img/logo.png"></a>
 			</div>
 			<ul id="nav-mobile" class="hide-on-med-and-down right">
-				<li>Menu do Admin</li>
+				<li <?= ($active == "artigos" ? 'class="active"' : '') ?> ><a href="listarArtigos.php">Listar Artigos</a></li>
+				<li <?= ($active == "usuarios" ? 'class="active"' : '') ?> ><a href="listarUsuarios.php">Listar Usuarios</a></li>
 				<li><a href="logout.php">Sair</a></li>
 		    </ul>
 		</div>

@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="pt-br">
-<?php include("../admin/include/head.php");?>
+<?php include("../admin/include/head.php"); ?>
 <body>
-    <?php
+    <?php 
+    $active = "artigos";
     include("../admin/include/header.php"); 
     ?>
 </body>
