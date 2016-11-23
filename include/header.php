@@ -1,16 +1,17 @@
 <header>
-		<nav>
-			<ul id="menu-bar">
-				<li><img src="../img/logo.jpeg" id="logo"></li> <!-- Logo --> <!-- Assim que eu tiver photoshop novamente eu edito a imagem-->
-				<li><h1>MackPedia</h1></li>
-				<li><h5>Encontre tudo sobre aquela matéria chata!</h5></li>
-				<li><input type="text" name="busca" id="busca"/></li>
-				<li><input type="submit" value="Buscar"/></li>
-		
-		    
-		        <li><a href="">Administração do Site</a></li>
-		        <li><a href="">Contato</a></li>
-		        <li><a href="">Sobre</a></li>
+	<nav>
+		<div class="nav-wrapper #c62828 red darken-3">
+		<div class="row">
+			<div class="col s1">
+				<a href="teste.php" class="brand-logo"><img src="/img/logo.png"></a>
+			</div>
+			<ul id="nav-mobile" class="hide-on-med-and-down right">
+				<li><a href="/cadastro.php">Cadastre-se</a></li>
+				<li><a href="/login.php">Login</a></li>
+				<li><a href="/admin/index.php">Administração do Site</a></li>
+				<li><a href="">Contato</a></li>
 		    </ul>
-		</nav>
-	</header>
+		</div>
+		</div>
+	</nav>
+</header>

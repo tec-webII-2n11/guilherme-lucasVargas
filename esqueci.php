@@ -2,13 +2,20 @@
 <html>
     <?php include("include/head.php"); ?>
     <body>
-        <img src=""></img> <!-- Logo -->
         
+    
+     <?php
+        include("include/header.php");
+        include("include/categorias.php");
+    ?>
+        <div class="container">
         <h2>Esqueceu sua senha hã!</h2>
         <form action="" method="POST">
             <label for="email">Email</label>
-            <input type="text" name="login"/>
-            <input type="submit" value="Submit"/>
+            <input type="text" name="login" required/>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                </button>
         </form>
+    </div>
     </body>
 </html>
